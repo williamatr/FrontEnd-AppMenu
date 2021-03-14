@@ -1,0 +1,145 @@
+.info_cashier {
+  position: absolute;
+  top: 0vh;
+  width: 45vw;
+  height: 100vh;
+  left: 55vw;
+}
+
+.button_register {
+  position: absolute;
+  width: 19vw;
+  height: 10vh;
+  left: 2vw;
+  top: 2vh;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 1.4vmax;
+}
+.button_account {
+  position: absolute;
+  width: 19vw;
+  height: 10vh;
+  right: 2vw;
+  top: 2vh;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 1.4vmax;
+}
+
+.text_register {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.3vmax;
+  line-height: 2.5vmax;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  margin: auto;
+}
+.text_account {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.3vmax;
+  line-height: 2.5vmax;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  margin: auto;
+}
+.container_cashier_tables {
+  position: absolute;
+  width: 44vw;
+  right: 1.5vw;
+  height: 85vh;
+  padding: 3vh;
+  bottom: 3.1vh;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  background-color: white;
+  display: grid;
+  grid-gap: 3vh;
+}
+.cashier_component {
+  position: absolute;
+  width: 44vw;
+  height: 72vh;
+  padding: 1.5vmax;
+  bottom: 0vh;
+  overflow: auto;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .info_cashier {
+    position: absolute;
+    top: 0vh;
+    width: 77vw;
+    height: 100vh;
+    left: 23vw;
+  }
+
+  .button_register {
+    position: absolute;
+    width: 32vw;
+    height: 7vh;
+    left: 2vh;
+    top: 1vh;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 1.4vmax;
+  }
+  .button_account {
+    position: absolute;
+    width: 32vw;
+    height: 7vh;
+    right: 2vh;
+    top: 1vh;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 1.4vmax;
+  }
+
+  .text_register {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4.5vw;
+    line-height: 4.6vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    margin: auto;
+  }
+  .text_account {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4.5vw;
+    line-height: 4.6vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    margin: auto;
+  }
+  .container_cashier_tables {
+    position: absolute;
+    width: 75.5vw;
+    right: 1.5vw;
+    height: 89.3vh;
+    padding: 1vh;
+    bottom: 1.5vw;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 1vh;
+    background-color: white;
+    display: grid;
+    grid-gap: 3vh;
+  }
+  .cashier_component {
+    position: absolute;
+    width: 75.5vw;
+    height: 80vh;
+    padding: 1vh;
+    bottom: 0vh;
+    overflow: auto;
+  }
+}

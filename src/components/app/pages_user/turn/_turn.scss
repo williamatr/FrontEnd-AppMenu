@@ -1,0 +1,40 @@
+.header_turn {
+  display: block;
+  position: relative;
+  top: 0.5vh;
+}
+.footer_turn {
+  display: none;
+}
+
+.page_turn {
+  flex-direction: column;
+  position: fixed;
+  text-align: center;
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+  left: 0px;
+  top: 0px;
+  grid-template-rows: 12fr 1fr;
+  grid-template-columns: 1fr;
+}
+
+.table_num {
+  display: none;
+  position: absolute;
+}
+.pre_order_turn {
+  display: none;
+  position: absolute;
+  left: 23.6vw;
+  top: 80vh;
+}
+.container_qr {
+  //display none o block
+  display: block;
+  position: absolute;
+  height: 82.6vh;
+  width: 100vw;
+  bottom: 8vh;
+}

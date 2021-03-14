@@ -1,0 +1,248 @@
+@import "elements/footer_nav_user/_nav_user.scss";
+@import "elements/footer_nav_service/_nav_service.scss";
+@import "elements/footer_nav_admin/_nav_admin.scss";
+@import "elements/logo_ordena/_logo_ordena.scss";
+@import "elements/table_num/_table_num.scss";
+@import "elements/register_user_option/_register_user_option.scss";
+@import "elements/register_user_option/register_user/_register_user.scss";
+@import "elements/register_user_option/register_anonymous/_register_anonymous.scss";
+@import "elements/register_user_option/login_user/_login_user.scss";
+@import "elements/register_admin/_register_admin.scss";
+@import "elements/pre_order/_pre_order.scss";
+@import "elements/return/_return.scss";
+@import "elements/login/_login.scss";
+@import "elements/reader_qr/_reader_qr.scss";
+@import "elements/reader_qr_service/_reader_qr_service.scss";
+@import "elements/search_bar/_search.scss";
+@import "elements/food_menu/menu_bar/_menu_bar.scss";
+@import "elements/food_menu/list_menu/_list_menu.scss";
+@import "elements/food_menu/page_food/_page_food.scss";
+@import "elements/food_menu/float_cart/_float_cart.scss";
+@import "elements/food_menu/forms_menu/_forms_menu.scss";
+@import "elements/food_menu/order_page/_order_page.scss";
+@import "elements/menu_setup/list_all/_list_all.scss";
+@import "elements/menu_setup/list_category/_list_category.scss";
+@import "elements/menu_setup/list_product/_list_product.scss";
+@import "elements/menu_setup/list_modifiers/_list_modifiers.scss";
+@import "elements/menu_setup/selector_modifiers/_selector_modifiers.scss";
+@import "elements/menu_setup/selector_aditionals/_selector_aditionals.scss";
+@import "elements/menu_setup/edit_category/_edit_category.scss";
+@import "elements/login_admin_setup/form_login_setup/_form_login_setup.scss";
+@import "elements/num_table_home/_num_table_home.scss";
+@import "elements/avatar_home/_avatar_home.scss";
+@import "elements/account_list/_account_list.scss";
+@import "elements/tables_list/_tables_list.scss";
+@import "elements/tables_list_admin/_tables_list_admin.scss";
+@import "elements/info_table_products/_info_table_products.scss";
+@import "elements/cashier_info_tables/_cashier_info_tables.scss";
+@import "elements/cashier_register/_cashier_register.scss";
+@import "elements/cashier_account/_cashier_account.scss";
+@import "elements/list_spots_setup/_list_spots_setup.scss";
+@import "elements/info_code_qr/info_code/_info_code_qr.scss";
+@import "elements/info_code_qr/add_spot/_add_spot.scss";
+@import "elements/urgent_request/_urgent_request.scss";
+@import "elements/text_area/_text_area_input.scss";
+@import "elements/home_admin/_home_admin.scss";
+@import "elements/landing_page/home_landing/_home_landing.scss";
+@import "elements/options_header_admin/_options_header_admin.scss";
+@import "elements/options_header_landing/_options_header_landing.scss";
+@import "elements/header_register_admin/_header_register_admin.scss";
+@import "pages_user/turn/_turn.scss";
+@import "pages_user/register/_register.scss";
+@import "pages_user/home/_home.scss";
+@import "pages_user/chat/_chat.scss";
+@import "pages_user/menu/_menu.scss";
+@import "pages_user/payment/_payment.scss";
+@import "pages_user/account/_account.scss";
+@import "./pages_service/tables/_tables.scss";
+@import "./pages_service/info_table/_info_table.scss";
+@import "./pages_service/chat_service/_chat_service.scss";
+@import "./pages_service/code_qr/_code_qr";
+@import "./pages_service/account_service/_account_service.scss";
+@import "./pages_admin/tables_admin/_tables_admin.scss";
+@import "./pages_admin/info_table_admin/_info_table_admin.scss";
+@import "./pages_admin/chat_admin/_chat_admin.scss";
+@import "./pages_admin/code_qr_admin/_code_qr_admin.scss";
+@import "./pages_admin/account_admin/_account_admin.scss";
+@import "./pages_admin/menu_admin/_menu_admin.scss";
+@import "./pages_admin/menu_setup/_menu_setup.scss";
+@import "./pages_admin/login_admin/_login_admin.scss";
+@import "./pages_admin/cashier_setup/_cashier_admin.scss";
+@import "./pages_admin/spots_setup/_spots_setup.scss";
+@import "./pages_admin/home_admin/_home_admin.scss";
+@import "./pages_admin/register_admin/_register_admin.scss";
+@import "./ordena_pages/landing_page/_landing_page.scss";
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}

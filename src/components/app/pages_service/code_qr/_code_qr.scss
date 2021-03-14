@@ -1,0 +1,41 @@
+.header_code_qr {
+  display: block;
+  position: absolute;
+  justify-content: center;
+  width: 100%;
+  height: 10vh;
+  padding: 2px;
+  top: 0.5vh;
+}
+
+.footer_code_qr {
+  position: fixed;
+  display: block;
+  bottom: 0px;
+}
+
+.page_code_qr {
+  display: grid;
+  position: fixed;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  left: 0px;
+  top: 0px;
+  grid-template-rows: 12fr 1fr;
+  grid-template-columns: 1fr;
+}
+.return_button {
+  display: flex;
+  position: absolute;
+  height: auto;
+  top: 73vh;
+  left: 35vw;
+}
+
+.container_code_qr {
+  position: absolute;
+  height: 81.5vh;
+  width: 100vw;
+  bottom: 8vh;
+}

@@ -1,0 +1,22 @@
+.footer_info_table {
+  position: fixed;
+  display: block;
+  bottom: 0px;
+}
+
+.page_info_table {
+  display: block;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  left: 0vw;
+  right: 0vw;
+  top: 0vh;
+}
+
+.container_info_table {
+  position: absolute;
+  height: 92vh;
+  width: 100vw;
+  bottom: 8vh;
+}
